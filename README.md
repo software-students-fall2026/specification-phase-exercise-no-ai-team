@@ -42,7 +42,7 @@ Our findings are listed below:
 ## Prior Art & Originality
 Our Statement:  
 
-We examined the Future Work and Open Questions sections of the Software Design Document, the delivery roadmap, and the repository’s open and closed issues and pull requests. Our proposal’s features - embedding videos on slides (a new kind of content), editable alt text for slide images, and advanced options for re-ordering and viewing slides - are all new. Importantly, whilst the Software Design Document rules out general-purpose design and free-form graphic design, it emphasizes editing and templating content (potentially with AI’s help), and our proposal is a novel improvement in this regard. 
+We examined the Future Work and Open Questions sections of the Software Design Document, the delivery roadmap, and the repository’s open and closed issues and pull requests. Currently, the Slide Machine does not support video as content, but it includes the option to drag-and-drop slides in a list, and sets alt text for images to one of three default options: caption, slide title, or "Slide Image." Our proposal builds on this work by adding more extensive options for re-ordering and viewing slides, as well as for editing alt text for slide images, and by establishing video as a new kind of content. Importantly, whilst the Software Design Document rules out general-purpose design and free-form graphic design, it emphasizes editing and templating content (potentially with AI’s help), and our proposal is a novel improvement in this regard. 
 
 
 ## Stakeholders
