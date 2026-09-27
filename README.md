@@ -55,39 +55,30 @@ Our contribution is to improve the post-lecture editing and sharing capabilities
 
 ## User Requirements
 
+User Stories - Instructors
 
-Video (7 total)
-As a slide maker, while I am lecturing, I want the app to suggest videos related to what I'm saying that I can accept or remove afterwards, so that I don't have to search for good clips myself.
-As a slide maker, I want to be warned when a video in my lecture has been deleted or made private, so that I can replace it before students find it broken.
-As a slide maker, I want to add, replace or remove the video in a slide's video box, so that I can show exactly the clip I want.
-As a slide reader, I want to play a video right on the slide, so that I don't lose my place in the lecture.
-As a slide reader, I want to turn on captions for a video, so that I'm able to better follow the video and understand its content.
-As a slide reader, I want a downloaded PDF of the lecture to include each video's title and link, so that I can still watch the clips from my downloaded copy.
-As a slide reader, I want a video to pause when I move to the next slide, so that I don't hear a clip playing over a different slide.
-Alternative Text, Images (7 total)
-As a slide maker, while I am lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
-As a slide maker, I want to be given new alt text that I can accept or modify whenever an image is replaced, so that the alt text doesn't describe the wrong image.
-As a slide maker, I want to mark that an image does not need alt text, so that screen reader users can skip images that carry no meaning.
-As a slide reader reading a lecture in another language, I want image alt text translated, so that I understand the images in my language.
-As a slide reader, I want image alt text included when I download a lecture as a PDF, so that I can understand any images in the downloaded copy.
-As a slide reader, I want to know when an image's alt text was AI-generated, so that I know how much to trust it and can ask my instructor if it seems wrong.
-As a slide reader, I want to click an image to see its alt text, so that I can understand a complicated diagram.
-Slide Organization (7 total)
-As a slide maker, I want to undo a slide move I made by mistake, so that I don't have to manually fix the order.
-As a slide maker, I want to select multiple slides and move them together, so that I can quickly reorganize a long lecture.
-As a slide maker, I want to see small previews of all my slides in a grid, so that I can spot slides in the wrong order without scrolling through full-size slides.
-As a slide maker, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
-As a slide maker, I want to move a slide to a different lecture in the same project, so that content recorded in the wrong session ends up where it belongs.
-As a slide reader, I want to see a list of every slide's title and jump to any one, so that I can find a topic without clicking through the whole lecture.
-As a slide reader, I want to jump to a slide by typing its number, so that I can follow along when my instructor says "go to slide 14."
+As an instructor, while I’m lecturing, I want the app to suggest videos related to what I’m saying (that I can accept or remove afterwards), so that I don’t have to manually search for relevant videos myself. 
+As an instructor, I want to be notified when a video in my lecture has been deleted or privatized, so that I can adjust my slides appropriately for the students. 
+As an instructor, I want to add, replace, or remove the video in a slide’s video box, so that I can show the video that best fits my slide/lecture. 
+As an instructor, I want to undo a slide re-ordering I made by mistake, so that I don’t have to manually fix the order.
+As an instructor, I want to select multiple slides and move them simultaneously, so that I can quickly reorganize a long lecture. 
+As an instructor, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
+As an instructor, I want to move a slide to a different lecture in the same project, so that I can reuse created content without having to repeat work. 
+As an instructor, while I’m lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
+As an instructor, I want to be given new alt text that I can accept or modify whenever an image is replaced, so that the alt text doesn't describe the wrong image.
+As an instructor, I want to mark an image as not needing alt text, so that students can skip pictures that aren’t useful to them.
 
-
-
-
-
-
-
-
+User Stories - Students
+As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context. 
+As a student, I want to turn on captions for a video, so that I'm able to better follow the video and understand its content.
+As a student, I want a downloaded PDF of the lecture to include each video's title and link, so that I can still watch the videos from my downloaded copy.
+As a student, I want a video to pause when I move to the next slide, so that I don't hear a video interrupting the next slide. 
+As a student, I want alt text to read aloud when appropriate, so that I understand the content of the image despite being unable to see or read properly. 
+As a student, I want to move to a slide by typing its number, so that I can quickly access specific slides during lecture or while reviewing material. 
+As a student, I want to see a list of every slide’s title and jump to any one, so that I can quickly access slides related to a specific topic. 
+As a student, I want image alt text to be translated when it’s in another language, so that I’m able to understand the images (via the alt text) properly. 
+As a student, I want to know when an image's alt text was AI-generated, so that I know how much to trust it and can ask my instructor if it seems wrong.
+As a student, I want to click an image to see its alt text, so that I can clarify the meaning of the image. 
 
 
 
