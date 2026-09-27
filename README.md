@@ -4,7 +4,11 @@ A little exercise to get started with the specification phase of the software de
 
 ## Team members
 
-See instructions. Delete this line and replace with a list of the names of your team members, including links to each one's GitHub profile.
+Daran: dyt2010@nyu.edu | https://github.com/slvrtngd
+Tristan: ttm2041@nyu.edu | https://github.com/Trisolis 
+Levi: lg4493@nyu.edu | https://github.com/9021007
+Robert: rf2789@nyu.edu | https://github.com/rfang1224
+
 
 ## Review of the Current Application
 
