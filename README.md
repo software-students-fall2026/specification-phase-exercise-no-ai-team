@@ -65,14 +65,17 @@ As an instructor, I want to select multiple slides and move them simultaneously,
 As an instructor, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
 As an instructor, I want to move a slide to a different lecture in the same project, so that I can reuse created content without having to repeat work. 
 As an instructor, while I’m lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
+As an instructor, I want to write or edit the alt text for any image, so that I can modify the results of AI-generated alt text as required for specific situations.
 As an instructor, I want to be given new alt text that I can accept or modify whenever an image is replaced, so that the alt text doesn't describe the wrong image.
 As an instructor, I want to mark an image as not needing alt text, so that students can skip pictures that aren’t useful to them.
 
 User Stories - Students
+
 As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context. 
 As a student, I want to turn on captions for a video, so that I'm able to better follow the video and understand its content.
 As a student, I want a downloaded PDF of the lecture to include each video's title and link, so that I can still watch the videos from my downloaded copy.
 As a student, I want a video to pause when I move to the next slide, so that I don't hear a video interrupting the next slide. 
+As a student, I want to see a video's title and link when it is removed or broken (and an instructor hasn't fixed it), so that I can view the video in all circumstances. 
 As a student, I want alt text to read aloud when appropriate, so that I understand the content of the image despite being unable to see or read properly. 
 As a student, I want to move to a slide by typing its number, so that I can quickly access specific slides during lecture or while reviewing material. 
 As a student, I want to see a list of every slide’s title and jump to any one, so that I can quickly access slides related to a specific topic. 
@@ -84,7 +87,7 @@ As a student, I want to click an image to see its alt text, so that I can clarif
 
 ## Activity Diagrams
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+
 
 ## Wireframes
 
