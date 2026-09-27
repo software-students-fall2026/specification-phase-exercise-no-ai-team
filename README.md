@@ -57,49 +57,32 @@ Our contribution is to improve the post-lecture editing and sharing capabilities
 
 
 Video (7 total)
-As a slide maker, while I am lecturing, I want the app to suggest videos related to what I'm saying that I can accept or remove afterwards, so that I don't have to search for good clips myself.  
-
-As a slide maker, I want to be warned when a video in my lecture has been deleted or made private, so that I can replace it before students find it broken.  
-
-As a slide maker, I want to replace or remove a video on a slide, so that I can fix a wrong or outdated clip.  
-
-As a slide reader, I want to play a video right on the slide, so that I don't lose my place in the lecture.  
-
-As a slide reader, I want to turn on captions for a video, so that I’m able to better follow the video and understand its content.  
-
-As a slide reader, I want a downloaded PDF of the lecture to include each video's title and link, so that I can still watch the clips from my downloaded copy.  
-
-As a slide reader, I want a video to pause when I move to the next slide, so that I don't hear a clip playing over a different slide.  
-
+As a slide maker, while I am lecturing, I want the app to suggest videos related to what I'm saying that I can accept or remove afterwards, so that I don't have to search for good clips myself.
+As a slide maker, I want to be warned when a video in my lecture has been deleted or made private, so that I can replace it before students find it broken.
+As a slide maker, I want to add, replace or remove the video in a slide's video box, so that I can show exactly the clip I want.
+As a slide reader, I want to play a video right on the slide, so that I don't lose my place in the lecture.
+As a slide reader, I want to turn on captions for a video, so that I'm able to better follow the video and understand its content.
+As a slide reader, I want a downloaded PDF of the lecture to include each video's title and link, so that I can still watch the clips from my downloaded copy.
+As a slide reader, I want a video to pause when I move to the next slide, so that I don't hear a clip playing over a different slide.
 Alternative Text, Images (7 total)
-As a slide maker, while I am lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating descriptions of images doesn’t take a long time.  
-
-As a slide maker, I want to be given a new alt text that I can accept or modify whenever an image is replaced, so that the alt text doesn't describe the wrong image.  
-
-As a slide maker, I want to be able to mark that an image does not need alt text, so screen readers that do not need to use that image can move on without wasting time.  
-
-As a slide reader reading a lecture in another language, I want image alt text translated, so that I understand the images in my language.  
-
-As a slide reader, I want image descriptions included when I download a lecture as a PDF, so that I can clearly understand any images in the downloaded copy.  
-
-As a slide reader, I want to know when an image alt text was AI-generated, so I can clarify any inaccuracies or discrepancies.  
-
-As a slide reader, I want to click on and separately view an image’s alt text, so I can focus on and emphasize the description more clearly.  
-
+As a slide maker, while I am lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
+As a slide maker, I want to be given new alt text that I can accept or modify whenever an image is replaced, so that the alt text doesn't describe the wrong image.
+As a slide maker, I want to mark that an image does not need alt text, so that screen reader users can skip images that carry no meaning.
+As a slide reader reading a lecture in another language, I want image alt text translated, so that I understand the images in my language.
+As a slide reader, I want image alt text included when I download a lecture as a PDF, so that I can understand any images in the downloaded copy.
+As a slide reader, I want to know when an image's alt text was AI-generated, so that I know how much to trust it and can ask my instructor if it seems wrong.
+As a slide reader, I want to click an image to see its alt text, so that I can understand a complicated diagram.
 Slide Organization (7 total)
-As a slide maker, I want to undo a slide move I made by mistake, so I don’t have to manually fix the order.  
+As a slide maker, I want to undo a slide move I made by mistake, so that I don't have to manually fix the order.
+As a slide maker, I want to select multiple slides and move them together, so that I can quickly reorganize a long lecture.
+As a slide maker, I want to see small previews of all my slides in a grid, so that I can spot slides in the wrong order without scrolling through full-size slides.
+As a slide maker, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
+As a slide maker, I want to move a slide to a different lecture in the same project, so that content recorded in the wrong session ends up where it belongs.
+As a slide reader, I want to see a list of every slide's title and jump to any one, so that I can find a topic without clicking through the whole lecture.
+As a slide reader, I want to jump to a slide by typing its number, so that I can follow along when my instructor says "go to slide 14."
 
-As a slide maker, I want to select multiple slides and move them together, so I can quickly reorganize a long lecture.  
 
-As a slide maker, I want to view all my slides at once in a grid, so that I can see which slides are in the wrong order.  
 
-As a slide maker, I want to move a slide to a specific position by typing its number, so I don’t have to manually move it across a long lecture.  
-
-As a slide maker, I want to move a slide to a different lecture in the same project, so that content recorded in the wrong session ends up where it belongs.  
-
-As a slide reader, I want to see a list of every slide's title and jump to any one, so that I can find a topic without clicking through the whole lecture.  
-
-As a slide reader, I want to move to a slide by typing its number, so that I can follow along when my instructor says to "go to slide 14."
 
 
 
