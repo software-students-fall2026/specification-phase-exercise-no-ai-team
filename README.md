@@ -4,15 +4,20 @@ A little exercise to get started with the specification phase of the software de
 
 ## Team members
 
-Daran: dyt2010@nyu.edu | https://github.com/slvrtngd
-Tristan: ttm2041@nyu.edu | https://github.com/Trisolis 
+Daran: dyt2010@nyu.edu | https://github.com/slvrtngd  
+
+Tristan: ttm2041@nyu.edu | https://github.com/Trisolis
+
 Levi: lg4493@nyu.edu | https://github.com/9021007
-Robert: rf2789@nyu.edu | https://github.com/rfang1224
+
+Robert: rf2789@nyu.edu | https://github.com/rfang1224 
+
+Amitav: an4245@nyu.edu | https://github.com/AmitavNarayan
 
 
 ## Review of the Current Application
 Our findings are listed below:  
-  
+
 1 - The app’s decisions about when to create or update a slide are inconsistent; for example, sometimes continued speech produced no new slide, even after a pause. As other examples, repeating a correction after a mistake created a new slide rather than fixing the current one, and speaking for a long stretch only resulted in one slide (weakness).  
 
 2 - The dashboard/display for the API and usage is easily accessible, very clear, and provides an ample amount of detail. The instructor can easily tell whether he/she is running close to any limits on the app (strength).  
