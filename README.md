@@ -40,8 +40,10 @@ Our findings are listed below:
 
 
 ## Prior Art & Originality
+Our Statement:  
 
-See instructions. Delete this line and replace with a short statement of what your team checked (the project's Future Work and Open Questions, its roadmap, and its open issues and pull requests) and which parts of your proposal are original — new work not already specified, scheduled, or proposed by someone else.
+We examined the Future Work and Open Questions sections of the Software Design Document, the delivery roadmap, and the repository’s open and closed issues and pull requests. Our proposal’s features - embedding videos on slides (a new kind of content), editable alt text for slide images, and advanced options for re-ordering and viewing slides - are all new. Importantly, whilst the Software Design Document rules out general-purpose design and free-form graphic design, it emphasizes editing and templating content (potentially with AI’s help), and our proposal is a novel improvement in this regard. 
+
 
 ## Stakeholders
 
