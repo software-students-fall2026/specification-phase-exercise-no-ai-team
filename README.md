@@ -127,10 +127,50 @@ Our contribution is to improve the post-lecture editing and sharing capabilities
 15. As a new student, I want the same clear "Get Started" entry point, so that account setup doesn't require guessing which option applies to me.
 16. As a returning student, I want to be recognized and logged in automatically, so I can get straight to viewing lecture content.
 
-
-
 ## Activity Diagrams
 
+Each diagram starts from an existing Slide Machine screen, and traces one user story/stories through our proposed changes, including error and cancel paths.
+
+### Instructor Diagrams
+
+#### Diagram 1: Move a Slide to a Specific Position
+
+**User story:** As an instructor, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
+
+![Activity diagram: moving a slide by typing its position number](media/diagrams/Instructor-Reordering-Slides.png)
+
+Starting from the slide list in the lecture editor, the instructor selects a slide and enters a target position number. The system checks whether the number is valid: an invalid entry shows an error and lets the instructor try again, and cancelling returns to the slide list with nothing changed. On a valid entry the slide moves to the new position and all affected slides are renumbered.
+
+#### Diagram 2: Add, Edit, and Share Speaker Notes
+
+**User stories:**
+- As an instructor, I want to add private speaker notes to any slide, so that I have reminders and talking points visible only to me during the lecture.
+- As an instructor, I want to edit or delete speaker notes after they're created, so that I can revise my talking points as my lecture plan changes.
+- As an instructor, I want the option to make a slide's speaker notes visible to students, so that I can share extra context when it's useful for review.
+
+![Activity diagram: adding, editing, and sharing speaker notes](media/diagrams/Instructor-Speaker-Notes.png)
+
+From a slide in the lecture editor, the instructor adds speaker notes, which are private by default. They can later edit or delete the notes, and can choose to share a slide's notes with students. 
+
+### Student Diagrams
+
+#### Diagram 3: Play a Video on a Slide with Captions
+
+**User stories:**
+- As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context.
+- As a student, I want to turn on captions for a video, so that I'm able to better follow the video and understand its content.
+
+![Activity diagram: playing a slide video with captions](media/diagrams/Student-Video-Captions.png)
+
+**DESCRIPTION HERE IF YOU WANT**
+
+#### Diagram 4: View an Image's Alt Text
+
+**User story:** As a student, I want to click an image to see its alt text, so that I can clarify the meaning of the image.
+
+![Activity diagram: viewing an image's alt text](media/diagrams/Student-Alt-Text.png)
+
+While viewing a slide, the student clicks an image. The system first checks whether alt text exists/the instructor has marked the image as not needing alt text, in which case a display message stating 'no alt text exists' pops up. Otherwise, alt text is displayed, with an "AI-generated" label when applicable. The student dismisses the alt text to return to the slide. 
 
 
 ## Wireframes
