@@ -156,11 +156,13 @@ From a slide in the lecture editor, the instructor adds speaker notes, which are
 
 #### Diagram 3: Play a Video on a Slide with Captions
 
-**User story:** As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context.
+**User stories:**
+- As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context.
+- As a student, I want to turn on captions for a video, so that I'm able to better follow the video and understand its content.
 
-![Activity diagram: playing a slide video with captions](media/diagrams/Student-Play-Video.png)
+![Activity diagram: playing a slide video with captions](media/diagrams/Student-Video-Captions.png)
 
-While viewing a slide, the student plays a video. 
+**DESCRIPTION HERE IF YOU WANT**
 
 #### Diagram 4: View an Image's Alt Text
 
