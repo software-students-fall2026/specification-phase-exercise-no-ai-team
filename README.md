@@ -87,45 +87,37 @@ Our contribution is to improve the post-lecture editing and sharing capabilities
 
 ## User Requirements
 
-### User Stories - Instructors (18)
+### User Stories - Instructors (13)
 
 1. As an instructor, while I’m lecturing, I want the app to suggest videos related to what I’m saying (that I can accept or remove afterwards), so that I don’t have to manually search for relevant videos myself. 
-2. As an instructor, I want to be notified when a video in my lecture has been deleted or privatized, so that I can adjust my slides appropriately for the students. 
-3. As an instructor, I want to add, replace, or remove the video in a slide’s video box, so that I can show the video that best fits my slide/lecture. 
-4. As an instructor, I want to undo a slide re-ordering I made by mistake, so that I don’t have to manually fix the order.
-5. As an instructor, I want to select multiple slides and move them simultaneously, so that I can quickly reorganize a long lecture. 
-6. As an instructor, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
-7. As an instructor, I want to move a slide to a different lecture in the same project, so that I can reuse created content without having to repeat work. 
-8. As an instructor, while I’m lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
-9. As an instructor, I want to write or edit the alt text for any image, so that I can modify the results of AI-generated alt text as required for specific situations.
-10. As an instructor, I want to be given new alt text that I can accept or modify whenever an image is replaced, so that the alt text doesn't describe the wrong image.
-11. As an instructor, I want to mark an image as not needing alt text, so that students can skip pictures that aren’t useful to them.
-12. As an instructor, I want to add private speaker notes to any slide, so that I have reminders and talking points visible only to me during the lecture.
-13. As an instructor, I want to edit or delete speaker notes after they're created, so that I can revise my talking points as my lecture plan changes.
-14. As an instructor, I want the option to make a slide's speaker notes visible to students, so that I can share extra context when it's useful for review.
-15. As an instructor, I want the live transcription display removed from the bottom of the screen during lecture, so that it doesn't distract me or disappear before I can read it.
-16. As an instructor, I want an alternative, less intrusive way to confirm the app is capturing my speech (without the current bottom bar), so that I still have feedback the system is working.
-17. As a new instructor, I want a single clear "Get Started" option on first visit, so that I'm not confused about whether to sign in or create an account.
-18. As a returning instructor, I want to be logged in automatically after my first session, so that I don't have to repeatedly choose between sign-in and account creation.
+2. As an instructor, I want to add, replace, or remove the video in a slide’s video box, so that I can show the video that best fits my slide/lecture. 
+3. As an instructor, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
+4. As an instructor, while I’m lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
+5. As an instructor, I want to write or edit the alt text for any image, so that I can modify the results of AI-generated alt text as required for specific situations.
+6. As an instructor, I want to mark an image as not needing alt text, so that students can skip pictures that aren’t useful to them.
+7. As an instructor, I want to add private speaker notes to any slide, so that I have reminders and talking points visible only to me during the lecture.
+8. As an instructor, I want to edit or delete speaker notes after they're created, so that I can revise my talking points as my lecture plan changes.
+9. As an instructor, I want the option to make a slide's speaker notes visible to students, so that I can share extra context when it's useful for review.
+10. As an instructor, I want the live transcription display removed from the bottom of the screen during lecture, so that it doesn't distract me or disappear before I can read it.
+11. As an instructor, I want an alternative, less intrusive way to confirm the app is capturing my speech (without the current bottom bar), so that I still have feedback the system is working.
+12. As a new instructor, I want a single clear "Get Started" option on first visit, so that I'm not confused about whether to sign in or create an account.
+13. As a returning instructor, I want to be logged in automatically after my first session, so that I don't have to repeatedly choose between sign-in and account creation.
 
-### User Stories - Students (16)
+### User Stories - Students (13)
 
 1. As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context. 
 2. As a student, I want to turn on captions for a video, so that I'm able to better follow the video and understand its content.
-3. As a student, I want a downloaded PDF of the lecture to include each video's title and link, so that I can still watch the videos from my downloaded copy.
-4. As a student, I want a video to pause when I move to the next slide, so that I don't hear a video interrupting the next slide. 
-5. As a student, I want to see a video's title and link when it is removed or broken (and an instructor hasn't fixed it), so that I can view the video in all circumstances. 
-6. As a student, I want alt text to read aloud when appropriate, so that I understand the content of the image despite being unable to see or read properly. 
-7. As a student, I want to move to a slide by typing its number, so that I can quickly access specific slides during lecture or while reviewing material. 
-8. As a student, I want to see a list of every slide’s title and jump to any one, so that I can quickly access slides related to a specific topic. 
-9. As a student, I want image alt text to be translated when it’s in another language, so that I’m able to understand the images (via the alt text) properly. 
-10. As a student, I want to know when an image's alt text was AI-generated, so that I know how much to trust it and can ask my instructor if it seems wrong.
-11. As a student, I want to click an image to see its alt text, so that I can clarify the meaning of the image. 
-12. As a student, I want to see speaker notes only on slides where the instructor has chosen to share them, so that I get extra context without seeing notes meant to be private.
-13. As a student, I want a cleaner slide view without a distracting bottom bar during playback, so that I can focus on the slide content itself.
-14. As a student, I want captions (if enabled) displayed in a way that doesn't disappear too quickly, so that I can actually read them while following along.
-15. As a new student, I want the same clear "Get Started" entry point, so that account setup doesn't require guessing which option applies to me.
-16. As a returning student, I want to be recognized and logged in automatically, so I can get straight to viewing lecture content.
+3. As a student, I want alt text to read aloud when appropriate, so that I understand the content of the image despite being unable to see or read properly. 
+4. As a student, I want to move to a slide by typing its number, so that I can quickly access specific slides during lecture or while reviewing material. 
+5. As a student, I want to see a list of every slide’s title and jump to any one, so that I can quickly access slides related to a specific topic. 
+6. As a student, I want image alt text to be translated when it’s in another language, so that I’m able to understand the images (via the alt text) properly. 
+7. As a student, I want to know when an image's alt text was AI-generated, so that I know how much to trust it and can ask my instructor if it seems wrong.
+8. As a student, I want to click an image to see its alt text, so that I can clarify the meaning of the image. 
+9. As a student, I want to see speaker notes only on slides where the instructor has chosen to share them, so that I get extra context without seeing notes meant to be private.
+10. As a student, I want a cleaner slide view without a distracting bottom bar during playback, so that I can focus on the slide content itself.
+11. As a student, I want captions (if enabled) displayed in a way that doesn't disappear too quickly, so that I can actually read them while following along.
+12. As a new student, I want the same clear "Get Started" entry point, so that account setup doesn't require guessing which option applies to me.
+13. As a returning student, I want to be recognized and logged in automatically, so I can get straight to viewing lecture content.
 
 ## Activity Diagrams
 
