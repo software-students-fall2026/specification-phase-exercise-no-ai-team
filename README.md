@@ -162,7 +162,7 @@ the student plays a video, and is able to watch it (network errors notwithstandi
 
 **User story:** As a student, I want to click an image to see its alt text, so that I can clarify the meaning of the image.
 
-![Activity diagram: viewing an image's alt text](tudent-Alt-Text.png)
+![Activity diagram: viewing an image's alt text](Student-Alt-Text.png)
 
 While viewing a slide, the student clicks an image. The system first checks whether alt text exists/the instructor has marked the image as not needing alt text, in which case a display message stating 'no alt text exists' pops up. Otherwise, alt text is displayed, with an "AI-generated" label when applicable. The student dismisses the alt text to return to the slide. 
 
