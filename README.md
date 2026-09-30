@@ -165,7 +165,7 @@ Starting from the slide list in the lecture editor, the instructor selects a sli
 
 From a slide in the lecture editor, the instructor adds speaker notes, which are private by default. They can later edit or delete the notes, and can choose to share a slide's notes with students. 
 
-### Diagram 3: Create an Image's Alt Text
+#### Diagram 3: Create an Image's Alt Text
 
 **User stories**: 
 - As an instructor, while I’m lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
@@ -195,7 +195,7 @@ the student plays a video, and is able to watch it (network errors notwithstandi
 
 While viewing a slide, the student clicks an image. The system first checks whether alt text is available/the instructor has marked the image as decorative, in which case a display message stating 'no alt text exists' pops up. Otherwise, alt text is displayed, with an "AI-generated" label when applicable. The student dismisses the alt text to return to the slide. 
 
-### Diagram 6: Searching for a Slide by Title
+#### Diagram 6: Searching for a Slide by Title
 
 **User story**: As a student, I want to see a list of every slide’s title and jump to any one, so that I can quickly access slides related to a specific topic.
 
