@@ -180,11 +180,11 @@ While viewing a slide, the student clicks an image. The system first checks whet
 
 ## Wireframes
 
-![Wireframes view](https://www.figma.com/design/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=0-1&t=OWL8q17dJJD8U8ua-1)
+[Wireframes view](https://www.figma.com/design/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=0-1&t=OWL8q17dJJD8U8ua-1)
 
 ## Clickable Prototype
 
-![Clickable prototype](https://www.figma.com/proto/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=128-13&p=f&t=OWL8q17dJJD8U8ua-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=128%3A13&show-proto-sidebar=1)
+[Clickable prototype](https://www.figma.com/proto/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=128-13&p=f&t=OWL8q17dJJD8U8ua-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=128%3A13&show-proto-sidebar=1)
 
 ## Stakeholder Demo
 
