@@ -164,11 +164,11 @@ While viewing a slide, the student clicks an image. The system first checks whet
 
 ## Wireframes
 
-See instructions. Delete this line and place your wireframe diagrams here, covering every new screen and every existing screen your proposal changes, for every type of user.
+https://www.figma.com/design/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=0-1&p=f&t=GdVxEwXcJM3yAYOb-0
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+https://www.figma.com/design/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=0-1&p=f&t=GdVxEwXcJM3yAYOb-0
 
 ## Stakeholder Demo
 
