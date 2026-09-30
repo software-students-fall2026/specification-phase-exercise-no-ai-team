@@ -108,17 +108,18 @@ As a student, I want to click an image to see its alt text, so that I can clarif
 
 
 ## Activity Diagrams
-
-
-
+![Activity diagram: viewing an image's alt text](media/diagrams/InstructorAltText.png)
+![Activity diagram: viewing an image's move slide (instructor)](media/diagrams/InstructorMoveSlide.png)
+![Activity diagram: viewing an image's move slide (student)](media/diagrams/StudentMoveSlide.png)
+![Activity diagram: viewing an image's move slide (student video)](media/diagrams/StudentVideo.png)
 
 ## Wireframes
 
-https://www.figma.com/design/0UqiYtrXjcnEom7MGGCjnP/Untitled?node-id=0-1&t=Sc7o3N30DSiOsurJ-1
+
 
 ## Clickable Prototype
 
-https://www.figma.com/design/0UqiYtrXjcnEom7MGGCjnP/Untitled?node-id=0-1&t=Sc7o3N30DSiOsurJ-1
+See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
 
 ## Stakeholder Demo
 
