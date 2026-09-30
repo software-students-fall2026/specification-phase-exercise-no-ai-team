@@ -132,7 +132,7 @@ Each diagram starts from an existing Slide Machine screen, and traces one user s
 
 **User story:** As an instructor, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
 
-![Activity diagram: moving a slide by typing its position number](media/diagrams/Instructor-Reordering-Slides.png)
+![Activity diagram: moving a slide by typing its position number](Instructor-Reordering-Slides.png)
 
 Starting from the slide list in the lecture editor, the instructor selects a slide and enters a target position number. The system checks whether the number is valid: an invalid entry shows an error and lets the instructor try again, and cancelling returns to the slide list with nothing changed. On a valid entry the slide moves to the new position and all affected slides are renumbered.
 
@@ -143,7 +143,7 @@ Starting from the slide list in the lecture editor, the instructor selects a sli
 - As an instructor, I want to edit or delete speaker notes after they're created, so that I can revise my talking points as my lecture plan changes.
 - As an instructor, I want the option to make a slide's speaker notes visible to students, so that I can share extra context when it's useful for review.
 
-![Activity diagram: adding, editing, and sharing speaker notes](media/diagrams/Instructor-Speaker-Notes.png)
+![Activity diagram: adding, editing, and sharing speaker notes](Instructor-Speaker-Notes.png)
 
 From a slide in the lecture editor, the instructor adds speaker notes, which are private by default. They can later edit or delete the notes, and can choose to share a slide's notes with students. 
 
@@ -153,7 +153,7 @@ From a slide in the lecture editor, the instructor adds speaker notes, which are
 
 **User story:** As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context.
 
-![Activity diagram: playing a slide video](media/diagrams/Student-Play-Video.png)
+![Activity diagram: playing a slide video](Student-Play-Video.png)
 
 The student scrolls to a slide with at least one video. Among the videos which have loaded properly,
 the student plays a video, and is able to watch it (network errors notwithstanding).
