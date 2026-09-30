@@ -38,6 +38,7 @@ Our findings are listed below:
 
 10 - The whiteboard tool works well; the instructor has options to immediately draw on the board with a pen, highlighter or an eraser, and slide generation will pause automatically, or he/she can easily create a new whiteboard slide to keep drawings separate. The tool greatly enhances the instructor’s ability to clarify and visualize concepts (strength). 
 
+These findings show where the current experience creates friction. After this, we would look at stakeholder feedback to understand which problems affect instructors and students most directly.
 
 ## Prior Art & Originality
 
@@ -79,7 +80,7 @@ Our proposal extends these existing capabilities by allowing instructors to move
 
 ### Synthesis: Patterns Across Interviews
 
-Clustering the goals/frustrations above by frequency surfaced several recurring patterns: content clarity/accuracy (5/6), missing visual content like images and graphs (4/6), quiz quality (4/6), desire for video support (3/6), manual editing/control limitations (3/6), and slide reordering specifically (2/6). Image alt text and aesthetics/theming each appeared in 2/6 interviews.
+These patterns point to four broad opportunities: improve content quality, give users more control over editing, strengthen multimedia and accessibility, and reduce friction during presentation. Our proposed features respond directly to these opportunities.
 
 ### Feature-to-Evidence Mapping
 
@@ -92,9 +93,13 @@ Clustering the goals/frustrations above by frequency surfaced several recurring 
 | Bottom-bar / transcription changes | Our application review found that the live transcription display was unclear and disappeared too quickly. Instructor C also identified interface and usability issues with the existing presentation experience. |
 | Clearer account entry / authentication | Our application review identified usability issues around the application's entry workflow, pushing us to make changes towards a simpler "Get Started" path and reduced friction when returning to the application. |
 
+Across the application review and stakeholder interviews, several themes emerged: better control, clearer presentation, richer media, and improved accessibility. These findings shaped our product vision.
+
 ## Product Vision Statement
 
 Our contribution is to improve the post-lecture editing and sharing capabilities of the Slide Machine; we add new features for slide organization, video content, and alternative text, so the resulting deck is complete and accessible.
+
+We translated this vision into concrete user stories that describe what instructors and students should be able to do.
 
 ## User Requirements
 
@@ -135,6 +140,8 @@ Our contribution is to improve the post-lecture editing and sharing capabilities
 
 ## Activity Diagrams
 
+The user stories define what the system should do; the activity diagrams below show how those interactions should work.
+
 Our activity diagrams illustrate the primary workflows for each major feature area. Diagram 1 covers slide reordering; Diagram 2 covers speaker notes; Diagram 3 covers video playback; and Diagram 4 covers image alt text. The remaining user stories describe additional behaviors and variations within these feature areas, including captions, video failure states, PDF behavior, navigation, and authentication.
 
 ### Instructor Diagrams
@@ -143,7 +150,7 @@ Our activity diagrams illustrate the primary workflows for each major feature ar
 
 **User story:** As an instructor, I want to move a slide to a specific position by typing its number, so that I don't have to manually move it across a long lecture.
 
-![Activity diagram: moving a slide by typing its position number](Instructor-Reordering-Slides.png)
+![Activity diagram: moving a slide by typing its position number](media/diagrams/Instructor-Reordering-Slides.png)
 
 Starting from the slide list in the lecture editor, the instructor selects a slide and enters a target position number. The system checks whether the number is valid: an invalid entry shows an error and lets the instructor try again, and cancelling returns to the slide list with nothing changed. On a valid entry the slide moves to the new position and all affected slides are renumbered.
 
@@ -154,31 +161,51 @@ Starting from the slide list in the lecture editor, the instructor selects a sli
 - As an instructor, I want to edit or delete speaker notes after they're created, so that I can revise my talking points as my lecture plan changes.
 - As an instructor, I want the option to make a slide's speaker notes visible to students, so that I can share extra context when it's useful for review.
 
-![Activity diagram: adding, editing, and sharing speaker notes](Instructor-Speaker-Notes.png)
+![Activity diagram: adding, editing, and sharing speaker notes](media/diagrams/Instructor-Speaker-Notes.png)
 
 From a slide in the lecture editor, the instructor adds speaker notes, which are private by default. They can later edit or delete the notes, and can choose to share a slide's notes with students. 
 
+### Diagram 3: Create an Image's Alt Text
+
+**User stories**: 
+- As an instructor, while I’m lecturing, I want the app to suggest alt text that I can accept or modify afterwards, so that creating alt text for images doesn't take a long time.
+- As an instructor, I want to write or edit the alt text for any image, so that I can modify the results of AI-generated alt text as required for specific situations.
+- As an instructor, I want to mark an image as not needing alt text, so that students can skip pictures that aren’t useful to them.
+
+![Activity diagram: adding, editing, and removing alt text](media/diagrams/InstructorAltText.png)
+
+From a slide in the lecture editor, the instructor can view and edit alt text of an image, which is AI-generated by default. 
+
 ### Student Diagrams
 
-#### Diagram 3: Play a Video on a Slide with Captions
+#### Diagram 4: Play a Video on a Slide with Captions
 
 **User story:** As a student, I want to play a video right on the slide, so that I can follow along with the lecture and its context.
 
-![Activity diagram: playing a slide video](Student-Play-Video.png)
+![Activity diagram: playing a slide video](media/diagrams/Student-Play-Video.png)
 
 The student scrolls to a slide with at least one video. Among the videos which have loaded properly,
 the student plays a video, and is able to watch it (network errors notwithstanding).
 
-#### Diagram 4: View an Image's Alt Text
+#### Diagram 5: View an Image's Alt Text
 
 **User story:** As a student, I want to click an image to see its alt text, so that I can clarify the meaning of the image.
 
-![Activity diagram: viewing an image's alt text](Student-Alt-Text.png)
+![Activity diagram: viewing an image's alt text](media/diagrams/Student-Alt-Text.png)
 
 While viewing a slide, the student clicks an image. The system first checks whether alt text is available/the instructor has marked the image as decorative, in which case a display message stating 'no alt text exists' pops up. Otherwise, alt text is displayed, with an "AI-generated" label when applicable. The student dismisses the alt text to return to the slide. 
 
+### Diagram 6: Searching for a Slide by Title
+
+**User story**: As a student, I want to see a list of every slide’s title and jump to any one, so that I can quickly access slides related to a specific topic.
+
+![Activity diagram: student searches for slide by title](media/diagrams/StudentMoveSlide.png)
+
+While in a lecture, the student can both search for a title, or scroll through the list of titles of slides within said lecture. When satisfied, they can click on a title to move to its respective slide.
 
 ## Wireframes
+
+With the core workflows defined, we translated them into interface designs and an interactive prototype.
 
 [Wireframes view](https://www.figma.com/design/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=0-1&t=OWL8q17dJJD8U8ua-1)
 
