@@ -40,10 +40,12 @@ Our findings are listed below:
 
 
 ## Prior Art & Originality
+
 Our Statement:  
 
-We examined the Future Work and Open Questions sections of the Software Design Document, the delivery roadmap, and the repository’s open and closed issues and pull requests. Currently, the Slide Machine does not support video as content, but it includes the option to drag-and-drop slides in a list, and sets alt text for images to one of three default options: caption, slide title, or "Slide Image." Our proposal builds on this work by adding more extensive options for re-ordering and viewing slides and for editing alt text for slide images, and by establishing video as a new kind of content. Importantly, whilst the Software Design Document rules out general-purpose design and free-form graphic design, it emphasizes editing and templating content (potentially with AI’s help), and our proposal is a novel improvement in this regard. 
+We examined the Software Design Document, delivery roadmap, repository issues, and pull requests to identify related existing and planned functionality. The current application already supports drag-and-drop slide reordering and automatically assigns image alt text using one of three options: caption, slide title, or “Slide Image.” Video is not currently supported as slide content.
 
+Our proposal extends these existing capabilities by allowing instructors to move slides directly to a specified position, edit image alt text, and add video content to slides. These changes build on existing content-editing functionality without introducing general-purpose graphic design, which is outside the scope identified in the Software Design Document.
 
 ## Stakeholders
 
@@ -79,7 +81,16 @@ We examined the Future Work and Open Questions sections of the Software Design D
 
 Clustering the goals/frustrations above by frequency surfaced several recurring patterns: content clarity/accuracy (5/6), missing visual content like images and graphs (4/6), quiz quality (4/6), desire for video support (3/6), manual editing/control limitations (3/6), and slide reordering specifically (2/6). Image alt text and aesthetics/theming each appeared in 2/6 interviews.
 
-Mapping these patterns to our proposed featureset: **reordering slides** and **adding videos** are both well-supported by multiple, independent interviewees. **Image alt text** is supported by specific, direct requests, though from a single interviewer rather than both. **Speaker notes** and the **"get started" button change** relate only loosely to interview findings (an audio-playback preference and a general ease-of-use comment, respectively) rather than direct requests. **Removing the bottom bar** has no direct support in the interview data, it stems from our own Phase 1 application review rather than stakeholder interviews. We feel this is a reasonable and well-documented mix of features drawing from both stakeholder interviews and our own findings. 
+### Feature-to-Evidence Mapping
+
+| Proposed feature | Evidence |
+|---|---|
+| Slide reordering | Instructor C requested easier slide reordering, our application review also found that reordering slides was awkward and required manual dragging. |
+| Video support | Instructor B wanted the ability to link videos, Instructor C wanted YouTube videos on slides, and Student C identified embedded YouTube videos as useful. |
+| Editable image alt text | Instructor C explicitly requested the ability to add alt text to images, and Student C wanted image descriptions and clearer access to image information. |
+| Speaker notes | Instructor B wanted additional context associated with lecture content, which motivates giving instructors a way to provide additional information beyond the main slide content. |
+| Bottom-bar / transcription changes | Our application review found that the live transcription display was unclear and disappeared too quickly. Instructor C also identified interface and usability issues with the existing presentation experience. |
+| Clearer account entry / authentication | Our application review identified usability issues around the application's entry workflow, pushing us to make changes towards a simpler "Get Started" path and reduced friction when returning to the application. |
 
 ## Product Vision Statement
 
@@ -124,7 +135,7 @@ Our contribution is to improve the post-lecture editing and sharing capabilities
 
 ## Activity Diagrams
 
-Each diagram starts from an existing Slide Machine screen, and traces one user story/stories through our proposed changes, including error and cancel paths.
+Our activity diagrams illustrate the primary workflows for each major feature area. Diagram 1 covers slide reordering; Diagram 2 covers speaker notes; Diagram 3 covers video playback; and Diagram 4 covers image alt text. The remaining user stories describe additional behaviors and variations within these feature areas, including captions, video failure states, PDF behavior, navigation, and authentication.
 
 ### Instructor Diagrams
 
@@ -164,16 +175,16 @@ the student plays a video, and is able to watch it (network errors notwithstandi
 
 ![Activity diagram: viewing an image's alt text](Student-Alt-Text.png)
 
-While viewing a slide, the student clicks an image. The system first checks whether alt text exists/the instructor has marked the image as not needing alt text, in which case a display message stating 'no alt text exists' pops up. Otherwise, alt text is displayed, with an "AI-generated" label when applicable. The student dismisses the alt text to return to the slide. 
+While viewing a slide, the student clicks an image. The system first checks whether alt text is available/the instructor has marked the image as decorative, in which case a display message stating 'no alt text exists' pops up. Otherwise, alt text is displayed, with an "AI-generated" label when applicable. The student dismisses the alt text to return to the slide. 
 
 
 ## Wireframes
 
-
+![Wireframes view](https://www.figma.com/design/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=0-1&t=OWL8q17dJJD8U8ua-1)
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+![Clickable prototype](https://www.figma.com/proto/MbmQkDATafc26n74g5i85L/Wireframe---no-ai-team?node-id=128-13&p=f&t=OWL8q17dJJD8U8ua-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=128%3A13&show-proto-sidebar=1)
 
 ## Stakeholder Demo
 
