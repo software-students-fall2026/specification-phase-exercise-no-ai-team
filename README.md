@@ -115,11 +115,12 @@ As a student, I want to click an image to see its alt text, so that I can clarif
 
 ## Wireframes
 
+https://www.figma.com/design/0UqiYtrXjcnEom7MGGCjnP/Untitled?node-id=0-1&p=f&t=Sc7o3N30DSiOsurJ-0
 
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+https://www.figma.com/design/0UqiYtrXjcnEom7MGGCjnP/Untitled?node-id=0-1&p=f&t=Sc7o3N30DSiOsurJ-0
 
 ## Stakeholder Demo
 
