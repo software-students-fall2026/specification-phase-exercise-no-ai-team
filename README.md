@@ -233,12 +233,13 @@ Our contribution is to improve the post-lecture capabilities of the Slide Machin
 
 ## Clickable Prototype
 
-[Clickable prototype](https://www.figma.com/proto/on8UZbwKyV92jfbVAYYgau/FinalPrototype?t=gmwXNFRIOvkc4vVn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&show-proto-sidebar=1)
+Our clickable prototype is linked [here](https://www.figma.com/proto/on8UZbwKyV92jfbVAYYgau/FinalPrototype?t=gmwXNFRIOvkc4vVn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&show-proto-sidebar=1).
 
 ## Stakeholder Demo
 
-See instructions. Delete this line and place a link to the deck The Slide Machine generated during your presentation here, after you have presented.
+Our slide machine deck is linked [here](https://theslidemachine.com/d/untitled-7f9e4853).
 
 ## Exit Ticket
 
-See instructions. Delete this line and place a link to the exit-ticket quiz you generated from your demo deck and distributed to the class, along with a short note on what — if anything — you had to correct in the generated questions before publishing.
+Our exit ticket quiz is linked [here](https://docs.google.com/forms/d/e/1FAIpQLSfoRlvjHWWZQmPQDgJ3bvtOLkrk5u46saPPfVZgdBA72VHuiw/viewform?usp=header).  
+We had to modify a question which asked for the slide number of the vision statement, and replaced it with a more logical question about stakeholder interview coverage. We also removed a question that asked responders to distinguish between stakeholder interviews and other methods of gathering information, as it would have been obvious to any student who worked on this project, and replaced it with a question about slide search, a specific feature our demo introduces.
