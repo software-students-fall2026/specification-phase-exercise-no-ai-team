@@ -154,50 +154,50 @@ Our contribution is to improve the post-lecture capabilities of the Slide Machin
 
 ### Instructors
 
-**01 - Home**
-![01-Home](media/Wireframes/01-Home.png)
+**1 - Home**
+![1-Home](media/Wireframes/01-Home.png)
 
-**02 - Live Lecture**
-![02-Live-Lecture](media/Wireframes/02-Live-Lecture.png)
+**2 - Live Lecture**
+![2-Live-Lecture](media/Wireframes/02-Live-Lecture.png)
 
-**03 - Post-Lecture Review**
-![03-Post-Lecture-Review](media/Wireframes/03-Post-Lecture-Review.png)
+**3 - Post-Lecture Review**
+![3-Post-Lecture-Review](media/Wireframes/03-Post-Lecture-Review.png)
 
-**04 - Lecture Page**
-![04-Lecture-Page](media/Wireframes/04-Lecture-Page.png)
+**4 - Lecture Page**
+![4-Lecture-Page](media/Wireframes/04-Lecture-Page.png)
 
-**05 - Navigate Search**
-![05-Navigate-Search](media/Wireframes/05-Navigate-Search.png)
+**5 - Navigate Search**
+![5-Navigate-Search](media/Wireframes/05-Navigate-Search.png)
 
-**06 - Lecture Page (Slide 5)**
-![06-Lecture-Page-Slide-5](media/Wireframes/06-Lecture-Page-Slide-5.png)
+**6 - Lecture Page (Slide 5)**
+![6-Lecture-Page-Slide-5](media/Wireframes/06-Lecture-Page-Slide-5.png)
 
-**07 - Slide Menu**
-![07-Slide-Menu](media/Wireframes/07-Slide-Menu.png)
+**7 - Slide Menu**
+![7-Slide-Menu](media/Wireframes/07-Slide-Menu.png)
 
-**08 - Move Slide Dialog**
-![08-Move-Slide-Dialog](media/Wireframes/08-Move-Slide-Dialog.png)
+**8 - Move Slide Box**
+![8-Move-Slide-Box](media/Wireframes/08-Move-Slide-Dialog.png)
 
-**09 - Slide Moved**
-![09-Slide-Moved](media/Wireframes/09-Slide-Moved.png)
+**9 - Slide Moved**
+![9-Slide-Moved](media/Wireframes/09-Slide-Moved.png)
 
 **10 - Select Multiple**
 ![10-Select-Multiple](media/Wireframes/10-Select-Multiple.png)
 
-**11 - Move Selected Dialog**
-![11-Move-Selected-Dialog](media/Wireframes/11-Move-Selected-Dialog.png)
+**11 - Move Selected Box**
+![11-Move-Selected-Box](media/Wireframes/11-Move-Selected-Dialog.png)
 
 **12 - Slides Moved, Empty Video Box**
 ![12-Slides-Moved-Empty-Video-Box](media/Wireframes/12-Slides-Moved-Empty-Video-Box.png)
 
-**13 - Add Video Dialog**
-![13-Add-Video-Dialog](media/Wireframes/13-Add-Video-Dialog.png)
+**13 - Add Video Box**
+![13-Add-Video-Box](media/Wireframes/13-Add-Video-Dialog.png)
 
 **14 - Video Box Menu**
 ![14-Video-Box-Menu](media/Wireframes/14-Video-Box-Menu.png)
 
 **15 - Alt Text Pop-up**
-![15-Alt-Text-Popup](media/Wireframes/15-Alt-Text-Popup.png)
+![15-Alt-Text-Pop-up](media/Wireframes/15-Alt-Text-Popup.png)
 
 **16 - Replace Image**
 ![16-Replace-Image](media/Wireframes/16-Replace-Image.png)
@@ -207,29 +207,29 @@ Our contribution is to improve the post-lecture capabilities of the Slide Machin
 
 ### Students
 
-**S01 - Lecture Viewer**
-![S01-Lecture-Viewer](media/Wireframes/S01-Lecture-Viewer.png)
+**1 - Lecture Viewer**
+![1-Lecture-Viewer](media/Wireframes/S01-Lecture-Viewer.png)
 
-**S02 - Navigate Search**
-![S02-Navigate-Search](media/Wireframes/S02-Navigate-Search.png)
+**2 - Navigate Search**
+![2-Navigate-Search](media/Wireframes/S02-Navigate-Search.png)
 
-**S03 - Video Playing, Captions On**
-![S03-Video-Playing-Captions-On](media/Wireframes/S03-Video-Playing-Captions-On.png)
+**3 - Video Playing, Captions On**
+![3-Video-Playing-Captions-On](media/Wireframes/S03-Video-Playing-Captions-On.png)
 
-**S04 - Next Slide, Video Paused**
-![S04-Next-Slide-Video-Paused](media/Wireframes/S04-Next-Slide-Video-Paused.png)
+**4 - Next Slide, Video Paused**
+![4-Next-Slide-Video-Paused](media/Wireframes/S04-Next-Slide-Video-Paused.png)
 
-**S05 - Alt Text (Read-Only)**
-![S05-Alt-Text-Read-Only](media/Wireframes/S05-Alt-Text-Read-Only.png)
+**5 - Alt Text (Read-Only)**
+![5-Alt-Text-Read-Only](media/Wireframes/S05-Alt-Text-Read-Only.png)
 
-**S06 - Translated Alt Text**
-![S06-Translated-Alt-Text](media/Wireframes/S06-Translated-Alt-Text.png)
+**6 - Translated Alt Text**
+![6-Translated-Alt-Text](media/Wireframes/S06-Translated-Alt-Text.png)
 
-**S07 - Download Dialog**
-![S07-Download-Dialog](media/Wireframes/S07-Download-Dialog.png)
+**7 - Download Box**
+![7-Download-Box](media/Wireframes/S07-Download-Dialog.png)
 
-**S08 - Downloaded PDF**
-![S08-Downloaded-PDF](media/Wireframes/S08-Downloaded-PDF.png)
+**8 - Downloaded PDF**
+![8-Downloaded-PDF](media/Wireframes/S08-Downloaded-PDF.png)
 
 ## Clickable Prototype
 
